@@ -17,4 +17,4 @@ makedocs(;
     pages = ["Home" => "index.md", "References" => "references.md"],
 )
 
-deploydocs(; repo = "github.com/JuliaAnimators/JavisNB.jl", push_preview = true)
+deploydocs(; repo = "github.com/JuliaAnimators/JavisNB.jl", push_preview = true, devbranch="main")
